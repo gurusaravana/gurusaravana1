@@ -3,89 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Saravanakumar Gurusamy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Saravanakumar Gurusamy's Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: 'Roboto', sans-serif;
+            font-family: 'Nunito', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f5f5f5;
+            background-color: #f4f7f6;
             color: #333;
         }
         .container {
-            max-width: 800px;
+            width: 80%;
             margin: auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
         }
         header {
-            background-color: #007BFF;
+            background: #005A9C;
             color: #ffffff;
-            padding: 20px 0;
-            text-align: center;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: 3px solid #00A9E0;
         }
         header h1 {
+            text-align: center;
             margin: 0;
-            font-weight: 500;
+            font-weight: 700;
         }
         header p {
-            margin: 5px 0 0;
+            text-align: center;
+            margin: 0;
+            font-weight: 300;
         }
         .section {
-            margin-bottom: 20px;
+            padding: 20px 0;
+            border-bottom: 1px solid #eaeaea;
         }
-        .section-title {
-            background-color: #007BFF;
-            color: #ffffff;
-            padding: 10px;
-            margin: 0 -20px 10px;
-            font-weight: 500;
+        .section:last-child {
+            border-bottom: none;
         }
-        ul {
-            list-style: none;
+        .section h2 {
+            font-weight: 700;
+            color: #005A9C;
+        }
+        .section ul {
             padding: 0;
         }
-        ul li {
+        .section ul li {
+            list-style: none;
             margin-bottom: 10px;
-            padding-left: 15px;
-            position: relative;
         }
-        ul li:before {
-            content: "";
-            position: absolute;
-            left: 0;
-            top: 7px;
-            width: 5px;
-            height: 5px;
-            border-radius: 50%;
-            background-color: #007BFF;
+        .section p {
+            margin: 0;
         }
         .footer {
             text-align: center;
             padding: 20px;
-            margin-top: 20px;
-            background-color: #007BFF;
+            background: #005A9C;
             color: white;
-            font-size: 0.8em;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <header>
+    <header>
+        <div class="container">
             <h1>Saravanakumar Gurusamy PhD</h1>
-            <p>65 Gounder Street, Seithur, Rajapalayam Taluk, Virudhunagar District, Tamil Nadu, INDIA</p>
-            <p>+91 9994700450 | gurusaravana@ieee.org</p>
-        </header>
-
-        <!-- Additional sections like Objective, Academics, Experience, Publications, etc., will follow the same structure -->
-        <!-- Use .section for each part and .section-title for their titles -->
-
-        <div class="footer">
-            &copy; 2024 Saravanakumar Gurusamy. All rights reserved.
+            <p>65 Gounder Street, Seithur, Rajapalayam Taluk, Virudhunagar District, Tamil Nadu, INDIA - PIN Code: 626121</p>
+            <p>+91 9994700450 | gurusaravana@ieee.org | http://orcid.org/0000-0002-7721-2613</p>
         </div>
+    </header>
+
+    <div class="container">
+        <!-- Objective Section -->
+        <section class="section objective">
+            <h2>Objective</h2>
+            <p>Inspiring and motivating young technical minds. Research for the betterment and advancement of humanity.</p>
+        </section>
+
+        <!-- Academics Section -->
+        <section class="section academics">
+            <h2>Academics</h2>
+            <ul>
+                <li>Ph.D in Instrumentation and Control Engineering, Kalasalingam Academy of Research and Education</li>
+                <li>M.Tech in Control and Instrumentation Engineering, Thiagarajar College of Engineering</li>
+                <li>B.E in Electronics and Instrumentation Engineering, National Engineering College</li>
+            </ul>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="section experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>Associate Professor, Department of Electrical and Electronics Technology, FDRE TVT Institute, Ethiopia</li>
+                <li>Lecturer, Department of Electrical and Computer Engineering, University of Gondar, Ethiopia</li>
+                <li>Assistant Professor, Department of Instrumentation and Control Engineering, Kalasalingam Academy of Research and Education, India</li>
+            </ul>
+        </section>
+
+        <!-- Other sections like Awards, Publications, Memberships, Skills, and Personal Details -->
+        <!-- Ensure to follow the same structure for consistency -->
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Saravanakumar Gurusamy. All rights reserved.</p>
     </div>
 </body>
 </html>
